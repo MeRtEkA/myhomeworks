@@ -1,0 +1,40 @@
+﻿body {
+    background-color: #adabab;
+    font-size: 18px;
+}
+
+h1 {
+    color:rgba(242, 228, 203, 0.99);
+}
+
+body > header > h1 {
+    text-align: center;
+    font-size: 3.2em;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    font-size: 1.8em;
+    font-weight:bold;
+}
+
+    ul > li > a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    ul > li > a:hover {
+        background-color:#cbcaca;
+    }
+    ul > li:last-of-type { text-decoration:underline;}
+
+article > header > h1 {font-size:1.8em;}
+article > footer {text-align:start;}
+footer { text-align:center;}
+p > a {text-decoration:none;
+       color:black;
+}
+    p > a:hover {
+        text-decoration:underline;
+    }

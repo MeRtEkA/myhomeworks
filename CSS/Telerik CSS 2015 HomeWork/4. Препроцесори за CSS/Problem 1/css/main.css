@@ -1,0 +1,43 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #9215f2;
+}
+#header-container {
+  border: 1px solid #eaec67;
+}
+#logo-container {
+  display: inline-block;
+}
+#reg-form-container {
+  display: inline-block;
+  margin-left: 47%;
+  padding: 1%;
+  border: 1px solid #000;
+}
+#main-nav-list {
+  position: relative;
+  list-style-type: none;
+  border: 1px solid #3b3c08;
+}
+#main-nav-list li {
+  display: inline-block;
+  border: 1px solid #f00;
+}
+#main-nav-list li:hover .sub-nav-list {
+  width: 200px;
+  display: block;
+  position: absolute;
+}
+#main-nav-list li a {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #808080;
+}
+.sub-nav-list {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #000;
+  display: none;
+}

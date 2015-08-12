@@ -1,0 +1,18 @@
+﻿body {
+    height:700px;
+}
+
+.centerdiv {
+    background-color: black;
+    width: 100%;
+    border: 1px solid red;
+    border-radius: 100px;
+}
+
+div {
+    background-color: black;
+    border: 1px solid red;
+    border-radius: 100px;
+    width: 94%;
+}
+ #divs2 { margin-top:3% }

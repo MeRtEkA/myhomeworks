@@ -1,0 +1,112 @@
+﻿body,html.div,ul,li,a,form,input,label,span,fieldset,legend {
+  margin:0;
+  padding:0;
+  font-size:16px;
+  font-family:'Times New Roman', Times, serif;
+  background-color:#fff;
+}
+
+div.conteiner1 {
+  display:table;
+  border: 2px solid black;
+  border-radius:8px;
+  margin:0 auto;
+  width:650px;
+  height:500px;
+  margin-top:10px;
+}
+
+div.conteiner1 ul {
+  list-style-type:none;
+  padding: 2% 3% 0 3%;
+}
+
+div.conteiner1 ul hr {
+  color:#000;
+  margin-top:1%;
+  width:99%;
+}
+
+div.conteiner1 ul li {
+  display:inline;
+}
+
+div.conteiner1 ul li.firstli {
+  margin-left:17%;
+}
+
+dib.conteiner1 ul li.lastli {
+  margin-right:17%;
+}
+
+div.conteiner1 ul li  a {
+  display:inline-block;
+  text-decoration:underline;
+  font-size:1.4em;
+  color:#1fa7f6;
+}
+
+div.conteiner1 form {
+  float:right;
+  display:block;
+  margin-right:1%;
+  width:25%;
+  height:430px;
+  text-align:center;
+}
+
+div.conteiner1 form label {
+  display:block;
+  padding-top:21%;
+  font-size:1.2em;
+}
+div.conteiner1 form label span {
+  padding-left:10%;
+}
+
+div.conteiner1 form input {
+  margin-top:7%;
+  width:96%;
+}
+
+div.conteiner2{
+  display:inline-block;
+  border: 2px solid black;
+  border-radius: 5px 5px 3px 3px;
+  width:70%;
+  height:430px;;
+  margin:auto 0;
+  margin-left:1.5%;
+}
+
+div.conteiner2 form {
+  float:left;
+  width:46%;
+  margin-left:2.3%;
+}
+
+div.conteiner1 form fieldset {
+  height:30%;
+  margin-top:3%;
+  margin-left:1%;
+}
+
+div.conteiner1 form fieldset legend {
+
+}
+
+div.conteiner2 form  img {
+  float:left;
+}
+
+div.conteiner2 form label {
+  margin:0;
+  padding:0;
+  padding-top:2%;
+}
+
+div.conteiner2 form label.rightlabel {
+  float:right;
+  padding-right:2%;
+  padding-top:5.4%;
+}

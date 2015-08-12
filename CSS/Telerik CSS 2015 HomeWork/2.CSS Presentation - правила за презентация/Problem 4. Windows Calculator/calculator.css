@@ -1,0 +1,16 @@
+﻿body
+{ font:13px/20px Arial,Helvetica, sans-serif;
+}
+ul { padding:2px;
+     
+}
+li{ display:inline;
+   list-style-type:none;
+   padding-right: 5px;
+}
+.mymenu > li::first-letter { text-decoration:underline;}
+.calbox { display:inline-block;
+    width:400px;
+    height:400px;
+    border:1px solid black ;
+}

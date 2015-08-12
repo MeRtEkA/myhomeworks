@@ -1,0 +1,74 @@
+﻿body,
+div,
+p,
+img,
+b,
+a,
+html,
+form {
+  margin: 0;
+  padding: 0;
+}
+#wrapper {
+  background-color: #eeeeee;
+  border-top-right-radius: 15px;
+  width: 635px;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  height: 800px;
+}
+.h {
+  font-size: 1.3em;
+  padding-top: 20px;
+  margin-left: 20px;
+  padding-bottom: 5px;
+}
+img {
+  float: left;
+  margin: 23px;
+}
+.box1 {
+  border: 2px solid #999999;
+  background-color: #ffffff;
+  width: 595px;
+  height: 175px;
+  margin-top: 50px;
+  margin-left: 22px;
+}
+.box1 p {
+  padding-top: 23px;
+  display: inline-block;
+  width: 300px;
+}
+.box1 b {
+  color: #3d3d3d;
+}
+.buttons {
+  display: inline-block;
+  margin-left: 120px;
+  margin-top: 31px;
+}
+.centerbuttons {
+  display: inline-block;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+.lastbuttons {
+  display: inline-block;
+  margin-left: 120px;
+  margin-top: 15px;
+}
+.mybuttonleft {
+  color: #ffffff;
+  background-image: url('images/button1.png');
+  border: 1px solid #d11c00;
+  width: 105px;
+  height: 30px;
+}
+.mybuttonright {
+  color: #ffffff;
+  background-image: url('images/button1.png');
+  border: 1px solid #d11c00;
+  width: 85px;
+  height: 30px;
+}
+/*# sourceMappingURL=musiccategories.css.map */

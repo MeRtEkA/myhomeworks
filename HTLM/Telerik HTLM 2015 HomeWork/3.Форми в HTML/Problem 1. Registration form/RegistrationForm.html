@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>HomeWork Forms and Frames</title>
+    <style type="text/css">
+    table{border-collapse:collapse;border-style:solid ; border-width:1px;}
+    .footer {background-color:#68d7d7;
+             text-align:center}
+    .one   {width:45px ;}
+    .two   {width:100px ;}
+    .three {width:250px;}
+    .four  {width:150px;}
+    .five  {width:240px}
+    th {
+        width:150px ; text-align:center ; font-size:medium;border-style:solid ; border-width:1px;
+    }
+    td{border-style:solid ; border-width:1px;}
+    </style>
+</head>
+<body>
+    <header>
+        <h2>HTML Forms and Frames</h2>
+    </header>
+    <section>
+        <table>
+            <tr>
+                <th>Last Name</th>
+                <td>
+                    <form>
+                        <input class="three" type="text" />
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th>First Name</th>
+                <td>
+                    <form>
+                        <input class="three" type="text" />
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th>Address</th>
+                <td>
+                    <form>
+                        <textarea class="five" rows="4" cols="28"></textarea>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th> City </th>
+                <td>
+                    <form>
+                        <input class="four" type="text" /> <span>State</span><input type="text" class="one" />
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th>Zip/Postal Code</th>
+                <td>
+                    <form>
+                        <input class="one" type="text" />
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th>Coutry</th>
+                <td>
+                    <select name="Coutry">
+                        <option value="Value 1" selected="selected">Bulgaria</option>
+                        <option value="Value 2">Macedonia</option>
+                        <option value="Value 3">Greece</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Phone(contry code,<br />area code,number)</th>
+                <td>
+                    <form>
+                       <span>(+</span> <input class="one" name="contrycode" type="text" /> <span>)</span>
+                        <input class="one" type="text" />
+                        <input class="two" type="text" />
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th>E-mail</th>
+                <td>
+                    <form action="demo_form.asp" method="get">
+                        <input class="three" type="email" />
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th>Brith date</th>
+                <td>
+                    <form action="demo_form.asp" method="get">
+                        <input class="four" type="date" />
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td>
+                    <select>
+                        <option value="Value 1" selected="selected">Mele</option>
+                        <option value="Value 2">Famale</option>
+                        <option value="Value 3">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Starting date</th>
+                <td>
+                    <form action="demo_form.asp" method="get">
+                        <input id="radio1"
+                               type="radio"
+                               value="1"
+                               name="radios[]" />
+                        <label for="radio1">Spring 2015</label>
+                        <input id="radio2"
+                               type="radio"
+                               value="2"
+                               name="radios[]">
+                        <label for="radio2">Summer 2015</label>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <th>Comments/Questions</th>
+                <td>
+                    <form>
+                        <textarea class="five" rows="6" cols="28" ></textarea>
+                    </form>
+                </td>
+            </tr>
+            <tfoot>
+                <tr class="footer">
+                    <td colspan="2">
+                        <form action="demo_form.asp" method="get">
+                            <input type="submit" value="Submit" />
+                            <button type="reset" value="Reset">Clean This Form</button>
+                        </form>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+</body>
+</html>

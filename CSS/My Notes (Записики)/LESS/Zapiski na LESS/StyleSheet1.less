@@ -1,0 +1,32 @@
+﻿//Resetvame vsichki elementi ot nashiq html dokument//
+html, body, div, header, footer, section, a, ul, li  {
+    margin:0;
+    padding:0;
+}
+
+//Resetvame i novite tagove ot HTMl5 po tozi nachin//
+section , header , article ,footer , nav ,aside {
+    display:block;
+} // Tova se pravi za starite browsers //
+
+  //Gradient Mixin ot 2 cvqta//
+  .linear-gradient(@from-color,@from-pos,@to-color,@to-pos) {
+background: @from-color; 
+background: -moz-linear-gradient(top,  @from-color @from-pos, @to-color @to-pos); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(@from-pos,@from-color), color-stop(@to-pos,@to-color)); 
+background: -webkit-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos); 
+background: -o-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos); 
+background: -ms-linear-gradient(top,  @from-color @from-pos,@to-color @to-pos); 
+background: linear-gradient(to bottom,  @from-color @from-pos,@to-color @to-pos); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@{from-color}', endColorstr='@{to-color}',GradientType=0 ); 
+  } //Tova e Mixin-a ili funkciqta za gradient podavat se 2 cvqta i procenti//
+//Eto primer kak se polzva//
+body { 
+            .linear-gradient(#000000,0%,#ffffff,100%); 
+}           //ot 0% cheren cvqt kum 100% bql cvqt //
+            //Dobra praktika e i da se napravqt cvetovete nai otgore
+            //na mixini primerno v nachaloto na Less faila imate:
+            //@default-color1:#000000;
+            //@default-color2:#FFFFFF;
+            // I toga moga da zapisha komandata taka:
+            // .liner gradient (@defult-color1,0%,@deault-color2,100%); //

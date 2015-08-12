@@ -1,0 +1,8 @@
+ Tagove pri text. za Tarsachkata
+
+<strong>Strong text</strong>
+<em>Emphasized text</em>
+
+
+Tagove pri Table ( Tablici )
+<th>Table Heading</th>

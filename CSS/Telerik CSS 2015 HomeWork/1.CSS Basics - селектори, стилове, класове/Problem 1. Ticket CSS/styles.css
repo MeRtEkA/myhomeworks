@@ -1,0 +1,31 @@
+﻿body {
+    background-color: #525252;
+    font-size:18px;
+}
+
+dt:first-of-type {
+    color: rgba(118, 205, 243, 0.93);
+    font-size:1.1em;
+    font-style:normal;
+    padding-bottom:12px;
+}
+dt {
+    color:#b1adad;
+    font-style:italic;
+    font-size:16px;
+}
+dd {
+    position:relative;
+    bottom:19px;
+    left:90px;
+    color: rgba(118, 205, 243, 0.93);
+    font-size:16px;
+}
+dd:last-of-type {
+    color:orangered;
+}
+.color{color:navajowhite;}
+.red {
+    color:red;
+  
+}

@@ -1,0 +1,9 @@
+  ul>li*50
+  ol>li*  10 - 20 - 30 - 40 -50
+ 
+  lorem100  - 1000 - 2000
+
+
+za kalkulatora 
+
+<table border="1" style="border-collapse:collapse">

@@ -1,0 +1,132 @@
+﻿html,
+body,
+div,
+h2,
+p,
+span,
+form,
+input,
+img,
+section {
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+}
+#box {
+  background-color: #3B3B3B;
+  width: 920px;
+  margin-left: 50px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.loginform {
+  width: 100%;
+  height: 70px;
+  display: inline-block;
+  background: #3b3b3b;
+  background: -moz-linear-gradient(top, #3b3b3b 30%, #252525 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #3b3b3b), color-stop(100%, #252525));
+  background: -webkit-linear-gradient(top, #3b3b3b 30%, #252525 100%);
+  background: -o-linear-gradient(top, #3b3b3b 30%, #252525 100%);
+  background: -ms-linear-gradient(top, #3b3b3b 30%, #252525 100%);
+  background: linear-gradient(to bottom, #3b3b3b 30%, #252525 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3b3b3b', endColorstr='#252525', GradientType=0);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#box .loginform img,
+p,
+form,
+input {
+  display: inline-block;
+}
+#box .loginform img {
+  margin: 10px;
+  margin-left: 13px;
+}
+#box .loginform p,
+form {
+  color: #fff;
+  font-size: 1.6em;
+  position: relative;
+  bottom: 25px;
+  padding-left: 15px;
+}
+.mb-login {
+  text-indent: 8px;
+  border: 0;
+  border-radius: 8px;
+  height: 30px;
+  margin-left: 20px;
+}
+.mb-email {
+  text-indent: 8px;
+  border: 0;
+  border-radius: 8px;
+  height: 30px;
+  margin-left: 35px;
+}
+h2 {
+  color: #fcd814;
+  font-size: 2em;
+  margin: 20px;
+  margin-left: 30px;
+}
+#box .content section {
+  color: #9f9f9f;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+#box .content section > p {
+  font-family: 'Merriweather', serif;
+  font-size: 1.1em;
+  line-height: 1.4em;
+  display: block;
+}
+span {
+  color: white;
+}
+.mybutton {
+  margin-left: 30px;
+  margin-top: 5px;
+  -moz-box-shadow: inset 0px 0px 15px 3px #ba0000;
+  -webkit-box-shadow: inset 0px 0px 15px 3px #ba0000;
+  box-shadow: inset 0px 0px 15px 3px #ba0000;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff969f), color-stop(1, #ff0000));
+  background: -moz-linear-gradient(top, #ff969f 5%, #ff0000 100%);
+  background: -webkit-linear-gradient(top, #ff969f 5%, #ff0000 100%);
+  background: -o-linear-gradient(top, #ff969f 5%, #ff0000 100%);
+  background: -ms-linear-gradient(top, #ff969f 5%, #ff0000 100%);
+  background: linear-gradient(to bottom, #ff969f 5%, #ff0000 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff969f', endColorstr='#ff0000', GradientType=0);
+  background-color: #ff969f;
+  -moz-border-radius: 13px;
+  -webkit-border-radius: 13px;
+  border-radius: 13px;
+  border: 2px solid #fadada;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Courier New;
+  font-size: 15px;
+  padding: 10px 30px;
+  margin-bottom: 0;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #f50505;
+}
+.mybutton:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ff0000), color-stop(1, #ff969f));
+  background: -moz-linear-gradient(top, #ff0000 5%, #ff969f 100%);
+  background: -webkit-linear-gradient(top, #ff0000 5%, #ff969f 100%);
+  background: -o-linear-gradient(top, #ff0000 5%, #ff969f 100%);
+  background: -ms-linear-gradient(top, #ff0000 5%, #ff969f 100%);
+  background: linear-gradient(to bottom, #ff0000 5%, #ff969f 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000', endColorstr='#ff969f', GradientType=0);
+  background-color: #ff0000;
+}
+.mybutton:active {
+  position: relative;
+  top: 1px;
+}
+/*# sourceMappingURL=loginmembars.css.map */
